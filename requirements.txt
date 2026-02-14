@@ -1,0 +1,7 @@
+langchain==0.1.16
+sentence-transformers==2.6.1
+faiss-cpu==1.9.0.post1
+pypdf==4.1.0
+requests==2.31.0
+tiktoken==0.6.0
+numpy==1.26.3
