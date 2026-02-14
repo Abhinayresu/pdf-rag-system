@@ -10,11 +10,11 @@ Traditional LLMs often struggle with "hallucination" and lack the specific psych
 
 The pipeline follows a modular architecture designed for low-latency retrieval and precise response generation:
 
-1.  **Ingestion Layer**: Asynchronous PDF parsing using `PyPDFLoader`.
-2.  **Processing Layer**: Recursive character splitting with token-level awareness (`tiktoken`) to preserve semantic boundaries.
+1.  **Ingestion Layer**: PDF parsing orchestrated using **LangChain's** `PyPDFLoader`.
+2.  **Processing Layer**: Advanced document chunking via **LangChain's** `RecursiveCharacterTextSplitter` with token-level awareness (`tiktoken`) to preserve semantic boundaries.
 3.  **Embedding Layer**: Dense vector representation using the `BAAI/bge-m3` model.
 4.  **Retrieval Layer**: Vector similarity search via a `FAISS` FlatIP index.
-5.  **Inference Layer**: Orchestrated via LangChain, utilizing a quantized `Llama 3.2` model via Ollama with strict system-level prompting.
+5.  **Inference Layer**: Direct integration with a quantized `Llama 3.2` model via Ollama with strict system-level prompting.
 
 ## 🧠 Design Decisions & Rationale
 
