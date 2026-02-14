@@ -1,4 +1,4 @@
-# Professional-Grade RAG Pipeline: Sales-Centric Consultative AI
+# PDF RAG System: Professional Sales-Centric AI Pipeline
 
 A high-performance Retrieval-Augmented Generation (RAG) system engineered to emulate complex consultative sales methodologies. This project implements a local-first, vertically integrated RAG pipeline optimized for high-precision knowledge retrieval and strict behavioral grounding.
 
